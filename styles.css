@@ -184,3 +184,13 @@
     padding: 8px 42px;
     border-radius: 8px;
 }
+
+/*----------- footer -----------------*/
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #F9FAF8;
+    padding: 24px;
+}
