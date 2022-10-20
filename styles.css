@@ -16,15 +16,21 @@
 .logo {
     display: flex;
     align-items: center;
+    gap: 8px;
+    padding: 12px;
 }
 
 .logo img {
-    width: 100px;
+    width: 80px;
+    border: 2px solid #F9FAF8;
+    border-radius: 50%;
+    
 }
 
 .brand-name {
-    font-size: 24px;
+    font-size: 32px;
     color: #F9FAF8;
+    
 }
 
 .header ul {
@@ -139,4 +145,42 @@
     margin: 12px 0;
     text-align: end;
     font-weight: 600;
+}
+
+/*-------------- call to action container -----------------*/
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 64px 0;
+    padding: 48px 24px;
+    width: 800px;
+    gap: 24px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    
+}
+
+.call-box-info h3{
+    font-size: 36px;
+    color: #F9FAF8;
+}
+
+.call-box-info p {
+    color: #E5E7EB;
+}
+
+.call-box button {
+    background-color:  #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 8px 42px;
+    border-radius: 8px;
 }
