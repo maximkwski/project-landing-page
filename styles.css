@@ -103,6 +103,7 @@
 
 .img-gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 32px;
     margin-bottom: 42px;
@@ -113,4 +114,29 @@
     text-align: center;
     font-size: 18px;
     color: #909296;
+}
+
+/*------------------- quote container --------------------*/
+
+.third-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 24px 0;
+}
+
+.quote {
+    margin: 52px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#author {
+    margin: 12px 0;
+    text-align: end;
+    font-weight: 600;
 }
